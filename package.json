@@ -1,0 +1,36 @@
+{
+  "name": "common-prefix",
+  "version": "1.0.0",
+  "description": "Retrieve the common prefix across multiple strings",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test | tap-spec"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap-spec": "^1.0.0",
+    "tape": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/common-prefix.git"
+  },
+  "keywords": [
+    "common",
+    "prefix",
+    "string",
+    "start",
+    "first",
+    "same"
+  ],
+  "homepage": "https://github.com/hughsk/common-prefix",
+  "bugs": {
+    "url": "https://github.com/hughsk/common-prefix/issues"
+  }
+}
