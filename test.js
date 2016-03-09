@@ -2,6 +2,7 @@ var test = require('tape')
 var common = require('./')
 
 test('common-prefix', function(t) {
+  t.equal(common([]), '')
   t.equal(common(['a', 'b', 'c']), '')
   t.equal(common(['aa', 'ab', 'ac']), 'a')
   t.equal(common(['aaaa', 'aab', 'aaaac']), 'aa')
