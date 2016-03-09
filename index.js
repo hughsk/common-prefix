@@ -1,11 +1,11 @@
 module.exports = common
 
-function common(strings) {
+function common (strings) {
   if (!Array.isArray(strings)) {
     throw new Error('common-prefix expects an array of strings')
   }
 
-  var first = strings[0] || '';
+  var first = strings[0] || ''
   var commonLength = first.length
 
   for (var i = 1; i < strings.length; ++i) {
